@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Hospital Name</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/mstile-150x150.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Favicon/site.webmanifest">
+    <link rel="mask-icon" href="/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+        
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="./images/logo.jpg" alt="Logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Aboutus Page.html">About Us</a></li>
+                <li><a href="./Services Page.html">Services</a></li>
+                <li><a href="./Doctors Page.html">Doctors</a></li>
+                <li><a href="./Consultation Page.html">Consultation</a></li>
+                <li><a href="./Pharmacy Page.html">Pharmacy</a></li>
+                <li><a href="./Contactus Page.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+    </header>
+
+
+
+    <main>
+        <section class="personal-info">
+            <h2>Personal Information</h2>
+            <form>
+                <label>Patient's Name</label>
+                <input type="text" placeholder="First"> <input type="text" placeholder="Last">
+
+                <label>Date of Birth</label>
+                <input type="date">
+
+                <label>Phone Number</label>
+                <input type="text">
+
+                <label>Gender</label>
+                <div class="gender-options">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </form>
+        </section>
+
+        <section class="consultation-info">
+            <div class="consultants-visiting">
+                <h2>Consultants Visiting</h2>
+                <ul>
+                    <li>Consultant Cardiology <a href="./Doctors Page.html">🔗</a></li>
+                    <li>Consultant Neurology <a href="./Doctors Page.html">🔗</a></li>
+                    <li>Consultant Paediatrics <a href="./Doctors Page.html">🔗</a></li>
+                    <li>Consultant Orthopaedic <a href="./Doctors Page.html">🔗</a></li>
+                    <li>Consultant Gynaecology <a href="./Doctors Page.html">🔗</a></li>
+                    <li>Consultant Ophthalmology <a href="./Doctors Page.html">🔗</a></li>
+                </ul>
+            </div>
+
+            <div class="doctor-info">
+                <h2>Doctor's Information</h2>
+            
+                <form>
+                    <label>Doctor's Name</label>
+                    <input type="text">
+
+                    <label>Department</label>
+                    <input type="text">
+                </form>
+            </div>
+        </section>
+
+        <section class="appointment">
+            <h2>Book an Appointment</h2>
+            <form>
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+
+                <label for="appointment">Appointment Date & Time</label>
+                <input type="datetime-local" id="appointment">
+
+                <label for="additional">Additional Information</label>
+                <input type="text" id="additional">
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+
+
+    
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="footer-section">
+            <div class="footer-column quick-contacts">
+                <h3>Quick Contacts</h3>
+                <p>Reach us anytime for immediate assistance.</p>
+                <p>We're here to support your health needs 24/7.</p>
+                <p class="hotline">Hotline: (123) 456-7890</p>
+                <p>Email: info@hospital.com</p>
+            </div>
+
+            <div class="footer-column newsletter-form-container">
+                <h3>Newsletter Signup</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="footer-column follow-us">
+                <h3>Follow Us On</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="./images/facebook-logo.png" alt="Facebook"></a>
+                    <a href="#"><img src="./images/twitter-logo.jpg" alt="Twitter"></a>
+                    <a href="#"><img src="./images/insta-logo.jpg" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

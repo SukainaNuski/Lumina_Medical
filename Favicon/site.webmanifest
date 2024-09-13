@@ -1,0 +1,36 @@
+{
+    "name": "Hospital Webpage",
+    "short_name": "Hospital",
+    "description": "A hospital website with comprehensive healthcare services, modern facilities, and expert doctors.",
+    "start_url": "./Home Page.html",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "./",
+    "theme_color": "#5bbad5",
+    "icons": [
+      {
+        "src": "/Favicons/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "src": "/Favicons/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/Favicons/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "/Favicons/safari-pinned-tab.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      }
+    ],
+    "orientation": "portrait-primary",
+    "related_applications": [],
+    "prefer_related_applications": false
+  }
+  

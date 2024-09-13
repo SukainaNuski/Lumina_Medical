@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pharmacy-page</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/mstile-150x150.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Favicon/site.webmanifest">
+    <link rel="mask-icon" href="/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+        
+</head>
+<body class="pharmacy-page">
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="./images/logo.jpg" alt="Logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Aboutus Page.html">About Us</a></li>
+                <li><a href="./Services Page.html">Services</a></li>
+                <li><a href="./Doctors Page.html">Doctors</a></li>
+                <li><a href="./Consultation Page.html">Consultation</a></li>
+                <li><a href="./Pharmacy Page.html">Pharmacy</a></li>
+                <li><a href="./Contactus Page.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+    </header>
+
+    <body>
+        <div class="container">
+            <!-- Pharmacy Overview -->
+            <section class="pharmacy-overview">
+                <h1>Welcome to Our Hospital Pharmacy</h1>
+                <p>We provide comprehensive pharmacy services to ensure that you have access to all the medications you need. Our team of experienced pharmacists is here to help you with your prescriptions and healthcare needs.</p>
+            </section>
+    
+            <!-- Services Offered -->
+            <section class="services">
+                <h2>Pharmacy Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Prescription Services</h3>
+                        <p>We provide fast and accurate prescription services for patients, ensuring that you get the medications you need in a timely manner.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Medication Refills Services</h3>
+                        <p>Need a refill? Our pharmacy offers easy and convenient medication refills for ongoing treatment plans.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Over-the-Counter Medications</h3>
+                        <p>We stock a wide range of over-the-counter medications to treat common health conditions and improve your well-being.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Medication Counseling</h3>
+                        <p>Our pharmacists offer personalized counseling on your medications to ensure you understand the proper usage and side effects.</p>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- New Section: Order Medicines Online -->
+            <section class="order-online">
+                <h2>Order Medicines Online</h2>
+                <p>We now offer the convenience of ordering your medicines online. Simply fill out the form below or follow our step-by-step guide to place an order.</p>
+                <button class="order-btn">Order Now</button>
+            </section>
+    
+            <!-- Steps to Order Medicines -->
+            <section class="order-steps">
+                <h2>Steps to Order Medicines Online</h2>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <h3>Step 1: Register</h3>
+                        <p>Sign up for an account to easily manage your orders and prescriptions.</p>
+                    </div>
+                    <div class="step-card">
+                        <h3>Step 2: Upload Prescription</h3>
+                        <p>Upload a valid prescription from your doctor to order prescription medicines.</p>
+                    </div>
+                    <div class="step-card">
+                        <h3>Step 3: Add Medicines</h3>
+                        <p>Select the medicines you need and add them to your cart for checkout.</p>
+                    </div>
+                    <div class="step-card">
+                        <h3>Step 4: Payment & Delivery</h3>
+                        <p>Pay securely online and have your medicines delivered to your doorstep.</p>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Location and Hours -->
+
+            <section class="locations">
+                <h2>Our Locations</h2>
+                <div class="locations-grid">
+                 
+                    <div class="location-card">
+                        <img src="./images/pharmacy1.jpg" alt="Location 1 Image"> 
+                        <h3>Location 1</h3>
+                        <p> Union Place, Colombo 02</p>
+                        <p>Phone: (077) 123-456</p>
+                        <p>Hours: Mon-Fri 8:00 AM - 8:00 PM, Sat 9:00 AM - 10:00 PM</p>
+                    </div>
+                    
+                    <div class="location-card">
+                        <img src="./images/pharmacy2.jpeg" alt="Location 2 Image"> 
+                        <h3>Location 2</h3>
+                        <p>Akurana, Kandy</p>
+                        <p>Phone: (070) 632-5674</p>
+                        <p>Hours: Mon-Fri 8:00 AM - 6:00 PM, Sat 9:00 AM - 2:00 PM</p>
+                    </div>
+                 
+                    <div class="location-card">
+                        <img src="./images/pharmacy3.jpg" alt="Location 3 Image"> 
+                        <h3>Location 3</h3>
+                        <p>Main.St, Galle</p>
+                        <p>Phone: (345) 678-9012</p>
+                        <p>Hours: Mon-Fri 8:00 AM - 6:00 PM, Sat 9:00 AM - 2:00 PM</p>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Contact Form -->
+            <section class="contact">
+                <h2>Contact Us</h2>
+                <form action="submit-form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="telephone">Telephone:</label>
+                    <input type="tel" id="telephone" name="telephone">
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+    
+            <!-- FAQ Section -->
+            <section class="faq">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How can I refill my prescription?</h3>
+                    <p>You can request a refill by calling us or visiting the pharmacy in person.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer delivery services?</h3>
+                    <p>Yes, we offer delivery services for select medications. Please contact us for more details.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What over-the-counter medications do you offer?</h3>
+                    <p>We carry a variety of OTC medications including pain relievers, cough suppressants, vitamins, and more.</p>
+                </div>
+            </section>
+        </div>
+
+
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="footer-section">
+            <div class="footer-column quick-contacts">
+                <h3>Quick Contacts</h3>
+                <p>Reach us anytime for immediate assistance.</p>
+                <p>We're here to support your health needs 24/7.</p>
+                <p class="hotline">Hotline: (076) 256-7890</p>
+                <p>Email: info@hospital.com</p>
+            </div>
+
+            <div class="footer-column newsletter-form-container">
+                <h3>Newsletter Signup</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="footer-column follow-us">
+                <h3>Follow Us On</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="./images/facebook-logo.png" alt="Facebook"></a>
+                    <a href="#"><img src="./images/twitter-logo.jpg" alt="Twitter"></a>
+                    <a href="#"><img src="./images/insta-logo.jpg" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
