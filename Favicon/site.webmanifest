@@ -1,36 +1,34 @@
 {
-    "name": "Hospital Webpage",
-    "short_name": "Hospital",
-    "description": "A hospital website with comprehensive healthcare services, modern facilities, and expert doctors.",
-    "start_url": "./Home Page.html",
-    "background_color": "#ffffff",
-    "display": "standalone",
-    "scope": "./",
-    "theme_color": "#5bbad5",
-    "icons": [
-      {
-        "src": "/Favicons/favicon-16x16.png",
-        "sizes": "16x16",
-        "type": "image/png"
-      },
-      {
-        "src": "/Favicons/favicon-32x32.png",
-        "sizes": "32x32",
-        "type": "image/png"
-      },
-      {
-        "src": "/Favicons/apple-touch-icon.png",
-        "sizes": "180x180",
-        "type": "image/png"
-      },
-      {
-        "src": "/Favicons/safari-pinned-tab.svg",
-        "sizes": "any",
-        "type": "image/svg+xml"
-      }
-    ],
-    "orientation": "portrait-primary",
-    "related_applications": [],
-    "prefer_related_applications": false
+  "name": "Hospital Web Application",
+  "short_name": "HospitalApp",
+  "description": "A modern hospital web application offering comprehensive patient care services.",
+  "start_url": "https://sukainanuski.github.io/Lumina_Medical/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5bbad5",
+  "icons": [
+    {
+      "src": "/Favicon/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/Favicon/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/Favicon/mstile-150x150.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
+      "src": "/Favicon/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "ms": {
+    "tileColor": "#da532c"
   }
-  
+}
