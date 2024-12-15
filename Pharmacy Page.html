@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pharmacy-page</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="scripts/script.js" defer></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/mstile-150x150.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Favicon/site.webmanifest">
+    <link rel="mask-icon" href="/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+        
+</head>
+<body class="pharmacy-page">
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="./images/logo.jpg" alt="Logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Aboutus Page.html">About Us</a></li>
+                <li><a href="./Services Page.html">Services</a></li>
+                <li><a href="./Doctors Page.html">Doctors</a></li>
+                <li><a href="./Consultation Page.html">Consultation</a></li>
+                <li><a href="./Pharmacy Page.html">Pharmacy</a></li>
+                <li><a href="./Contactus Page.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+    </header>
+    <main>
+        <div class="container-medicine">
+        <h1>Medicine Order</h1>
+        <div id="analgesics">
+            <h2>Analgesics</h2>
+            <div class="item">
+                <label for="paracetamol">Paracetamol - Rs.5 per tablet </label>
+                <input type="number" min="0"  class="quantity" id="paracetamol">
+                <button class="add-to-cart" data-name="Paracetamol" data-price="5">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="ibuprofen">Ibuprofen - Rs.8 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="ibuprofen">
+                <button class="add-to-cart" data-name="Ibuprofen" data-price="8">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="aspirin">Aspirin - Rs.7 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="aspirin">
+                <button class="add-to-cart" data-name="Aspirin" data-price="7">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="codeine">Codeine - Rs.12 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="codeine">
+                <button class="add-to-cart" data-name="Codeine" data-price="12">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="diclofenac">Diclofenac - Rs.9 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="diclofenac">
+                <button class="add-to-cart" data-name="Diclofenac" data-price="9">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="naproxen">Naproxen - Rs.10 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="naproxen">
+                <button class="add-to-cart" data-name="Naproxen" data-price="10">Add to Cart</button>
+            </div>
+    
+        </div>
+    
+        
+        <div id="antibiotics">
+            <h2>Antibiotics</h2>
+            <div class="item">
+                <label for="amoxicillin">Amoxicillin - Rs.10 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="amoxicillin">
+                <button class="add-to-cart" data-name="Amoxicillin" data-price="10">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="penicillin">Penicillin - Rs.12 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="penicillin">
+                <button class="add-to-cart" data-name="Penicillin" data-price="12">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="ciprofloxacin">Ciprofloxacin - Rs.15 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="ciprofloxacin">
+                <button class="add-to-cart" data-name="Ciprofloxacin" data-price="15">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="azithromycin">Azithromycin - Rs.18 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="azithromycin">
+                <button class="add-to-cart" data-name="Azithromycin" data-price="18">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="doxycycline">Doxycycline - Rs.20 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="doxycycline">
+                <button class="add-to-cart" data-name="Doxycycline" data-price="20">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="erythromycin">Erythromycin - Rs.22 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="erythromycin">
+                <button class="add-to-cart" data-name="Erythromycin" data-price="22">Add to Cart</button>
+            </div>
+        </div>
+    
+        
+        <div id="antidepressants">
+            <h2>Antidepressants</h2>
+            <div class="item">
+                <label for="fluoxetine">Fluoxetine - Rs.15 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="fluoxetine">
+                <button class="add-to-cart" data-name="Fluoxetine" data-price="15">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="sertraline">Sertraline - Rs.18 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="sertraline">
+                <button class="add-to-cart" data-name="Sertraline" data-price="18">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="paroxetine">Paroxetine - Rs.17 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="paroxetine">
+                <button class="add-to-cart" data-name="Paroxetine" data-price="17">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="amitriptyline">Amitriptyline - Rs.20 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="amitriptyline">
+                <button class="add-to-cart" data-name="Amitriptyline" data-price="20">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="citalopram">Citalopram - Rs.16 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="citalopram">
+                <button class="add-to-cart" data-name="Citalopram" data-price="16">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="escitalopram">Escitalopram - Rs.19 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="escitalopram">
+                <button class="add-to-cart" data-name="Escitalopram" data-price="19">Add to Cart</button>
+            </div>
+        </div>
+    
+        
+        <div id="antihistamines">
+            <h2>Antihistamines</h2>
+            <div class="item">
+                <label for="cetirizine">Cetirizine - Rs.10 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="cetirizine">
+                <button class="add-to-cart" data-name="Cetirizine" data-price="10">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="loratadine">Loratadine - Rs.12 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="loratadine">
+                <button class="add-to-cart" data-name="Loratadine" data-price="12">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="diphenhydramine">Diphenhydramine - Rs.15 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="diphenhydramine">
+                <button class="add-to-cart" data-name="Diphenhydramine" data-price="15">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="fexofenadine">Fexofenadine - Rs.18 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="fexofenadine">
+                <button class="add-to-cart" data-name="Fexofenadine" data-price="18">Add to Cart</button>
+            </div>
+        </div>
+    
+        
+        <div id="antihypertensives">
+            <h2>Antihypertensives</h2>
+            <div class="item">
+                <label for="amlodipine">Amlodipine - Rs.12 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="amlodipine">
+                <button class="add-to-cart" data-name="Amlodipine" data-price="12">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="lisinopril">Lisinopril - Rs.15 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="lisinopril">
+                <button class="add-to-cart" data-name="Lisinopril" data-price="15">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="losartan">Losartan - Rs.18 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="losartan">
+                <button class="add-to-cart" data-name="Losartan" data-price="18">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="metoprolol">Metoprolol - Rs.20 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="metoprolol">
+                <button class="add-to-cart" data-name="Metoprolol" data-price="20">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="atenolol">Atenolol - Rs.10 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="atenolol">
+                <button class="add-to-cart" data-name="Atenolol" data-price="10">Add to Cart</button>
+            </div>
+            <div class="item">
+                <label for="ramipril">Ramipril - Rs.14 per tablet</label>
+                <input type="number" min="0"  class="quantity" id="ramipril">
+                <button class="add-to-cart" data-name="Ramipril" data-price="14">Add to Cart</button>
+            </div>
+        </div>
+    
+        
+         
+        <div id="cart">
+            <h2>Your Cart</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th> 
+                        <th>Quantity</th> 
+                        <th>Price</th> 
+                        <th>Total</th> 
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    
+                </tbody>
+            </table>
+            <p id="total-price">Total Price: $0</p> 
+            <button id="save-favourites">Save as Favourite</button> 
+            <button id="apply-favourites">Apply Favourite</button> 
+            <button id="buy-now">Buy Now</button> 
+        </div>
+        </div>
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="footer-section">
+            <div class="footer-column quick-contacts">
+                <h3>Quick Contacts</h3>
+                <p>Reach us anytime for immediate assistance.</p>
+                <p>We're here to support your health needs 24/7.</p>
+                <p class="hotline">Hotline: (123) 456-7890</p>
+                <p>Email: info@hospital.com</p>
+            </div>
+
+            <div class="footer-column newsletter-form-container">
+                <h3>Newsletter Signup</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="footer-column follow-us">
+                <h3>Follow Us On</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="./images/facebook-logo.png" alt="Facebook"></a>
+                    <a href="#"><img src="./images/twitter-logo.jpg" alt="Twitter"></a>
+                    <a href="#"><img src="./images/insta-logo.jpg" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </main>
+</body>
+</html>
